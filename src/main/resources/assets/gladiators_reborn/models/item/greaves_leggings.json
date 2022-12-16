@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "gladiators_reborn:item/greaves_leggings",
+        "layer1": "gladiators_reborn:item/greaves_leggings_overlay"
+    }
+}

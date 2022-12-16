@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "gladiators_reborn:item/manica_chestplate",
+        "layer1": "gladiators_reborn:item/manica_with_tunic_overlay"
+    }
+}

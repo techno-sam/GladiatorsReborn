@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "gladiators_reborn",
+  "version": "${version}",
+  "name": "GladiatorsReborn",
+  "description": "",
+  "authors": [
+    "Slimeist"
+  ],
+  "contact": {
+    "repo": "https://github.com/techno-sam/GladiatorsReborn"
+  },
+  "license": "MIT",
+  "icon": "assets/gladiators_reborn/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.slimeist.gladiators_reborn.GladiatorsReborn"
+    ],
+    "client": [
+      "com.slimeist.gladiators_reborn.client.GladiatorsRebornClient"
+    ]
+  },
+  "mixins": [
+    "gladiators_reborn.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "fabricshieldlib": ">=1.6.0-1.19"
+  },
+  "recommends": {}
+}
